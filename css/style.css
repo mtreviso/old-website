@@ -935,7 +935,7 @@
 /* Header */
 
 	#header {
-		background-color: #1f1815;
+		background-color: #121318;
 		background-attachment: scroll,								fixed;
 		background-image: url("images/overlay.png"), url("../images/bg.jpg");
 		background-position: top left,							top left;
@@ -980,6 +980,7 @@
 		position: fixed;
 		text-align: right;
 		width: 35%;
+		background-color: #121318;
 	}
 
 		#footer .icons {
