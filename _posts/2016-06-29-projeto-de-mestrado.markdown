@@ -12,3 +12,5 @@ Atualmente sou mestrando no programa Mestrando em Ciências de Computação e Ma
 A ideia é que essa detecção seja feita para recuperar o ponto final e eliminar as disfluências. Isso é importante pois várias tarefas de PLN tomam vantagens de um texto bem formado, com pontuação final (para que seja possível tratar uma sentenças por vez), e sem disfluências. O nosso método é um pré-processo para retirar uma métrica chamada de Idea Density (ID), que expressa a quão bem está sintetizado um texto.
 
 O endereço para o projeto é: <a href="http://mtreviso.github.io/deepbond/" target="_blank">http://mtreviso.github.io/deepbond/</a>. 
+
+Pesquisadores envolvidos: Marcos V. Treviso; Sandra M. Aluísio.
