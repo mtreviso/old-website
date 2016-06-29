@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Projeto de Iniciação Científica - Mineração de dados de pesquisadores usando o ScriptLattes.
-date: 2016-01-27T14:37:44.000Z
+date: 2015-06-14T14:37:44.000Z
 categories: update
 ---
 
