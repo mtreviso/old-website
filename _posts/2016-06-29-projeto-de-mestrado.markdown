@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Projeto de Mestrado - DeepBond: Detecção de pontuação final e disfluências em narrativas transcritas de pacientes.
+title: Projeto de Mestrado - DeepBond. Detecção de pontuação final e disfluências em narrativas transcritas de pacientes.
 date: 2016-06-29T14:37:44.000Z
 categories: update
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Projeto de Graduação - DeepTagger: Part-of-Speech Tagging usando redes neurais recorrentes e recursivas.
+title: Projeto de Graduação - DeepTagger. Part-of-Speech Tagging usando redes neurais recorrentes e recursivas.
 date: 2016-06-29T14:37:44.000Z
 categories: update
 ---
