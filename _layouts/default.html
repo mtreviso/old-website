@@ -1,123 +1,14 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+Prologue by HTML5 UP
+html5up.net | @ajlkn
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+Jekyll integration by Chris Bobbe | chrisbobbe.github.io
+-->
 <html>
-  	<head>
-  		<title>mtreviso's blog</title>
-  		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  		<meta name="description" content="Página pessoal. (:" />
-  		<meta name="keywords" content="marcos treviso, treviso, meitcher, usp, icmc, nilc, unipampa" />
-  		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-  		
-			<link rel="stylesheet" href="/css/skel.css" />
-			<link rel="stylesheet" href="/css/style.css" />
-			<link rel="stylesheet" href="/css/style-xlarge.css" />
-      <link href="./favicon.ico" rel="shortcut icon" />
-  		<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie/v8.css" /><![endif]-->
-
-      <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-        ga('create', 'UA-55692827-4', 'auto');
-        ga('send', 'pageview');
-      </script>
-
-
-  	</head>
-
-	<body id="top">
-
-      <header id="header">
-          <a href="/" class="image avatar"><img src="/images/avatar.jpg" alt="Marcos Treviso" /></a>
-          <h1>$ whoami? <strong><a href="/">Marcos Treviso</a></strong>. <br />
-          Mestrando em Ciências de Computação e Matemática Computacional (ICMC/USP). <br />
-          Pesquisador na área de <span title='Processamento de Linguagem Natural'>PLN</span>. <br />
-          <!-- crafted by <a href="http://html5up.net">HTML5 UP</a>.</h1> -->
-      </header>
-
-
-        {{ content }}
-
-        <!-- Footer -->
-        <footer id="footer">
-            <ul class="icons">
-
-              <li>
-                <a title="CV Lattes" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4891325U3" class="icon fa-graduation-cap">
-                  <span class="label">CV Lattes</span>
-                </a>
-              </li>
-
-              {% if site.github_username %}
-              <li>
-                <a title="GitHub" href="https://github.com/{{ site.github_username }}" class="icon fa-github">
-                  <span class="label">GitHub</span>
-                </a>
-              </li>
-              {% endif %}
-
-              {% if site.twitter_username %}
-              <li>
-                <a href="https://twitter.com/{{ site.twitter_username }}" class="icon fa-twitter">
-                  <span class="label">Twitter</span>
-                </a>
-              </li>
-              {% endif %}
-
-              {% if site.linkedin_username %}
-              <li>
-                <a href="https://linkedin.com/in/{{ site.linkedin_username }}" class="icon fa-linkedin">
-                  <span class="label">LinkedIn</span>
-                </a>
-              </li>
-              {% endif %}
-
-              {% if site.google_plus_username %}
-              <li>
-                <a href="https://plus.google.com/{{ site.google_plus_username }}" class="icon fa-google-plus">
-                  <span class="label">Google+</span>
-                </a>
-              </li>
-              {% endif %}
-
-              {% if site.facebook_username %}
-              <li>
-                <a title="Facebook" href="https://www.facebook.com/{{ site.facebook_username }}" class="icon fa-facebook">
-                  <span class="label">Facebook</span>
-                </a>
-              </li>
-              {% endif %}
-
-              {% if site.dribbble_username %}
-              <li>
-                <a href="#" class="icon fa-dribbble">
-                  <span class="label">Dribbble</span>
-                </a>
-              </li>
-              {% endif %}
-
-              {% if site.email %}
-              <li>
-                <a title="Email" href="mailto:{{ site.email }}" class="icon fa-envelope-o">
-                  <span class="label">Email</span>
-                </a>
-              </li>
-              {% endif %}
-            </ul>
-            <ul class="copyright">
-                <!-- <li>&copy; Untitled</li> -->
-                <li>© Copyright: Marcos Treviso - 2016</li>
-                <!-- <li>Demo Images: <a href="https://unsplash.com/">Unsplash</a></li> -->
-                <!-- <li>Jekyll Template: <a href="http://cloudcannon.com">Cloud Cannon</a></li> -->
-            </ul>
-        </footer>
-
-      <script src="/js/jquery.min.js"></script>
-      <script src="/js/jquery.poptrox.min.js"></script>
-      <script src="/js/skel.min.js"></script>
-      <script src="/js/init.js"></script>
-
+	{%- include head.html -%}
+	<body>
+		{{- content -}}
+		{%- include footer.html -%}
 	</body>
 </html>
-
