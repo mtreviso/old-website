@@ -249,7 +249,6 @@
 		&.avatar48 {
 			width: 48px;
 			height: 48px;
-			background: #000;
 
 			img {
 				width: 48px;
@@ -258,10 +257,13 @@
 
 			span {
 				display: block;
+				color: #FFF;
+				font-size: 32px;
 			}
 
 			span:hover{
 				display: block;	
+				color: #FFF;
 			}
 		}
 
