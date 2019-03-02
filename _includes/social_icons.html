@@ -1,5 +1,8 @@
 <!-- Social Icons -->
 <ul class="icons">
+  {%- if site.medium_url -%}
+  <li><a href="{{- site.medium_url -}}" target="_blank" class="icon fa-medium"><span class="label">Medium</span></a></li>
+  {%- endif -%}
   {%- if site.twitter_url -%}
   <li><a href="{{- site.twitter_url -}}" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
   {%- endif -%}

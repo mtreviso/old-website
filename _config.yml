@@ -31,7 +31,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Marcos V. Treviso
-subtitle: Ph.D Student
+subtitle: PhD Student
 description: >- # this means to ignore newlines until "baseurl:"
   This is my personal website.
 author: 
@@ -46,12 +46,13 @@ url: "" # the base hostname & protocol for your site
 facebook_url:
 github_url: https://www.github.com/mtreviso
 googleplus_url:
-instagram_url: https://www.instagram.com/mv.treviso/
+instagram_url: 
 linkedin_url: https://www.linkedin.com/in/mtreviso
 wordpress_url: http://mtreviso.wordpress.com/
 pinterest_url:
 slack_url:
 twitter_url:
+medium_url: https://medium.com/@mtreviso
 
 # Google Analytics Tracking ID goes here:
 google_analytics: UA-55692827-4
